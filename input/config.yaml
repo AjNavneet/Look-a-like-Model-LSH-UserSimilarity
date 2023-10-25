@@ -1,0 +1,14 @@
+label: l
+id_col: id
+thresh: 16
+n_perm: 10
+list_cols: [c6, c9]
+features: [c0, c1, c2, c3, c4, c5, c6, c7, c8, c9]
+
+seed_path: ../input/seed.csv
+data_path: ../input/data.json
+extn_path: ../output/extn.csv
+count_path: ../input/count_df.csv
+model_path: ../output/lshgraph
+clean_data_path: ../input/processed.json
+
