@@ -1,4 +1,4 @@
-# Lookalike Modeling using Locality-Sensitive Hashing
+# Lookalike Modeling using Locality Sensitive Hashing
 
 ## Business Objective
 
@@ -74,25 +74,6 @@ Our goal is to build a lookalike model using the Locality Sensitive Hashing algo
    - The `ml_pipeline` folder contains functions organized into different Python files, which are called inside `engine.py`.
 3. **output**: Contains the best-fitted model and the extension CSV file. This model can be quickly loaded for future use, saving the need to retrain all models from the beginning.
 4. **lib**: A reference folder that includes the original IPython notebook.
-
----
-
-## Key Concepts Explored
-
-1. Understanding the business problem.
-2. lookalike modeling and click rate.
-3. LSH (Locality Sensitive Hashing).
-4. Jaccard similarity on LSH.
-5. Seed set is and how to form it.
-6. Model evaluation.
-7. Rank users using feature importance.
-8. Scoring process to filter out candidates.
-9. Training a model using the MinHashLSHForest algorithm.
-14. LSH Graph object.
-15. Evaluating performance by calculating default and improved click rates.
-16. Generating an extended seed set.
-
-
 
 ---
 
